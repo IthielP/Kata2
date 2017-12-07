@@ -15,6 +15,10 @@ public class Histogram {
      public Histogram(int[] data) {
          this.data = data;
      }
+
+    Histogram(String[] data) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
  
      
  
